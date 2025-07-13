@@ -34,7 +34,7 @@ Before you begin, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/career-guidance-app.git
+git clone https://github.com/Ana123-an/CareerGuide.git
 cd career-guidance-app
 ```
 
@@ -72,18 +72,6 @@ cp .env.example .env
   measurementId: "G-ERX0WRSSP6"
 
 
-```
-
-
-- Hosting
-- Use existing project (select your Firebase project)
-
-### 6. Deploy Firestore Rules
-
-```bash
-firebase deploy --only firestore:rules
-firebase deploy --only firestore:indexes
-```
 
 ## 🚀 Development
 
