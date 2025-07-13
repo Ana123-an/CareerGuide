@@ -62,25 +62,19 @@ cp .env.example .env
 
 2. Fill in your Firebase configuration:
 ```env
-VITE_FIREBASE_API_KEY=your_api_key_here
-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+
+  apiKey: "AIzaSyB_UMsgwj0QuT8nvV38c8ZrF_JUVtY1Zt4",
+  authDomain: "careerguide-3cf2e.firebaseapp.com",
+  projectId: "careerguide-3cf2e",
+  storageBucket: "careerguide-3cf2e.firebasestorage.app",
+  messagingSenderId: "815056587015",
+  appId: "1:815056587015:web:fb84639067139803d15da2",
+  measurementId: "G-ERX0WRSSP6"
+
+
 ```
 
-### 5. Firebase CLI Setup
 
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init
-```
-
-Select:
-- Firestore
 - Hosting
 - Use existing project (select your Firebase project)
 
@@ -93,55 +87,10 @@ firebase deploy --only firestore:indexes
 
 ## 🚀 Development
 
-### Start Development Server
-
-```bash
-npm run dev
-```
-
 The app will be available at `http://localhost:5173`
 
-### Build for Production
 
-```bash
-npm run build
-```
 
-## 🌐 Deployment
-
-### Deploy to Firebase Hosting
-
-```bash
-# Build the project
-npm run build
-
-# Deploy to Firebase
-firebase deploy --only hosting
-```
-
-Your app will be live at `https://your-project-id.web.app`
-
-### Deploy Everything (Firestore + Hosting)
-
-```bash
-firebase deploy
-```
-
-## 📊 Seeding Data
-
-To populate your Firestore database with sample colleges:
-
-1. Uncomment the last line in `src/utils/seedData.ts`
-2. Run the app once
-3. Comment the line back to prevent duplicate data
-
-## 🔐 Security Rules
-
-The app includes comprehensive Firestore security rules:
-- Users can only access their own data
-- Colleges are publicly readable
-- Only admins can modify college data
-- Test results are private to each user
 
 ## 📱 Features Overview
 
@@ -205,5 +154,4 @@ For support, email support@careerguide.com or create an issue on GitHub.
 - Lucide React for icons
 - Pexels for stock images
 =======
-# CareerGuide
->>>>>>> 362c5fe73fd211a84382e0dec1e4b8fc3fd9e54e
+
