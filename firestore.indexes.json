@@ -1,0 +1,61 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "colleges",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ranking",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "colleges",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "country",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ranking",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "aptitudeTests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "studentId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "aptitudeTests",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "domain",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

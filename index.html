@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Guidance Web Application</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyB_UMsgwj0QuT8nvV38c8ZrF_JUVtY1Zt4",
+    authDomain: "careerguide-3cf2e.firebaseapp.com",
+    databaseURL: "https://careerguide-3cf2e.firebaseio.com",
+    projectId: "careerguide-3cf2e",
+    storageBucket: "careerguide-3cf2e.firebasestorage.app",
+    messagingSenderId: "815056587015",
+    appId: "1:815056587015:web:fb84639067139803d15da2"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+
+  function writeTestData(name, score) {
+    set(ref(db, 'students/' + name), {
+      name,
+      score
+    });
+  }
+
+  // Example: call writeTestData('Alice', 85) after user submits.
+</script>
+
+
+  </body>
+</html>
