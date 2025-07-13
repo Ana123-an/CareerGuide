@@ -63,12 +63,12 @@ cp .env.example .env
 2. Fill in your Firebase configuration:
 ```env
 
-  apiKey: "AIzaSyB_UMsgwj0QuT8nvV38c8ZrF_JUVtY1Zt4",
+  apiKey: "*****************",
   authDomain: "careerguide-3cf2e.firebaseapp.com",
   projectId: "careerguide-3cf2e",
   storageBucket: "careerguide-3cf2e.firebasestorage.app",
-  messagingSenderId: "815056587015",
-  appId: "1:815056587015:web:fb84639067139803d15da2",
+  messagingSenderId: "**********",
+  appId: "88888888888888888888",
   measurementId: "G-ERX0WRSSP6"
 
 
