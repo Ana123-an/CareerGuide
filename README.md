@@ -73,9 +73,7 @@ cp .env.example .env
 
 
 
-## 🚀 Development
 
-The app will be available at `http://localhost:5173`
 
 
 
