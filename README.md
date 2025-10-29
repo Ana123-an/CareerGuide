@@ -164,7 +164,7 @@ Feel free to use and modify the code as per your needs.
 
 ## 🆘 Support
 
-📩 For queries or support, email: **[support@careerguide.com](mailto:support@careerguide.com)**
+📩 For queries or support, email: **[mishra77ananya@gmail.com](mishra77ananya@gmail.com)**
 🐛 Or create an issue in the [GitHub repository](https://github.com/Ana123-an/CareerGuide/issues)
 
 ---
@@ -180,10 +180,5 @@ Feel free to use and modify the code as per your needs.
 
 ⭐ **If you like this project, don’t forget to give it a star on GitHub!** ⭐
 
-```
 
----
-
-Would you like me to include **badges** (for technologies like React, Firebase, etc.) at the top for a more professional GitHub look?
-```
 
